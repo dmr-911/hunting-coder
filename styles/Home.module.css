@@ -110,13 +110,3 @@
   }
 }
 
-
-.mainNav ul{
-  display: flex;
-  justify-content: center;
-}
-.mainNav ul li{
-  list-style: none;
-  margin: 10px;
-  font-weight: bold;
-}
