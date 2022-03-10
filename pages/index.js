@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import store from '../redux/store'
 
 export default function Home() {
+  console.log(store.getState().auth);
   return (
     <div className={styles.container}>
       <style jsx>
