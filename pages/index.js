@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import BannerImg from '../components/bannerImg'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
         <p className="text-2xl font-bold py-8">
         A blog for coders by a coder
         </p>
+        <BannerImg></BannerImg>
         <div>
           <h3>Learning next js in 2022</h3>
           <p>Js is the language of web ui, learn it better!</p>
