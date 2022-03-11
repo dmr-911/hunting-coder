@@ -2,10 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import BannerImg from '../components/bannerImg'
 import styles from '../styles/Home.module.css'
-import store from '../redux/store'
+import Link from 'next/link'
 
 export default function Home() {
-  console.log(store.getState().auth);
   return (
     <div className={styles.container}>
       <style jsx>
@@ -34,8 +33,10 @@ export default function Home() {
         A blog for coders by a coder
         </p>
         <BannerImg></BannerImg>
-        <div>
+        <div className="cursor-pointer">
+          <Link href="/blogspot/blog1">
           <h3>Learning next js in 2022</h3>
+          </Link>
           <p>Js is the language of web ui, learn it better!</p>
         </div>
         <div>
