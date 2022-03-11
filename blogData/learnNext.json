@@ -1,5 +1,6 @@
     {
-        "title" : "how to learn js",
+        "title" : "how to learn NextJs",
         "content" : "JavaScript often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
-        "author" : "Dmr"
+        "author" : "Dmr",
+        "slug" : "learnNextJS"
     }

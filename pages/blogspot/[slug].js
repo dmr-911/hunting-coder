@@ -3,11 +3,10 @@ import React from 'react';
 
 const BlogId = () => {
     const router = useRouter();
-    const{blogId} = router.query;
-    console.log(blogId);
+    const{slug} = router.query;
     return (
         <div>
-            <h4>This is {blogId} blog</h4>
+            <h4>This is {slug} blog</h4>
         </div>
     );
 };
