@@ -29,7 +29,7 @@ export default function Home() {
         </p>
         <BannerImg></BannerImg>
         <div className="cursor-pointer">
-          <Link href="/blogspot/blog1">
+          <Link href="/blogspot/learnNext">
           <h3>Learning next js in 2022</h3>
           </Link>
           <p>Js is the language of web ui, learn it better!</p>
