@@ -1,13 +1,21 @@
 import React from 'react';
 import Blogs from '../components/blogs';
-import styles from '../styles/Home.module.css'
 
-const Blog = () => {
+const Blog = ({data}) => {
   return (
     <>
-    <Blogs></Blogs>
+    <Blogs data={data}></Blogs>
   </>
   )
 }
+
+export async function getServerSideProps(context) {
+  const res = await fetch("http://localhost:3000/api/blogs");
+  const data = await res.json();
+  return {
+    props: {data}
+  }
+}
+
 
 export default Blog;

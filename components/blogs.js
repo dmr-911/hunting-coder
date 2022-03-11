@@ -1,14 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Blog from './blog';
 
-const Blogs = () => {
-    const [blogs, setBlogs] = useState([]);
-    useEffect(()=>{
-        fetch('http://localhost:3000/api/blogs')
-        .then(res => res.json())
-        .then( data => setBlogs(data))
-    },[]);
-
+const Blogs = ({data}) => {
+    const [blogs, setBlogs] = useState(data);
     return (
         <div>
             {
@@ -20,5 +14,6 @@ const Blogs = () => {
         </div>
     );
 };
+  
 
 export default Blogs;

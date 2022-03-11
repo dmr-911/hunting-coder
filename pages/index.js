@@ -3,8 +3,10 @@ import Image from 'next/image'
 import BannerImg from '../components/bannerImg'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import { useState } from 'react'
 
-export default function Home() {
+export default function Home({data}) {
+  const [state, setState] = useState(data);
   return (
     <div className={styles.container}>
       <style jsx>
@@ -48,4 +50,12 @@ export default function Home() {
       </footer>
     </div>
   )
+};
+
+export async function getServerSideProps(context) {
+  const res = await fetch("http://localhost:3000/api/blogs");
+  const data = await res.json();
+  return {
+    props: {data}, // will be passed to the page component as props
+  }
 }
