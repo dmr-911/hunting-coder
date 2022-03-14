@@ -7,3 +7,6 @@ export const LOGOUT = "logout";
 export const SIGNUP = "signup";
 export const OBSERVER = "observer";
 export const GOOGLE_SIGN_IN = "google_sign_in";
+
+export const BUY_CAKE = 'BUY_CAKE';
+export const BUY_ICE_CREAM = 'BUY_ICE_CREAM';
