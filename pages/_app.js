@@ -1,7 +1,7 @@
 import { Provider } from 'react-redux';
 import Navigation from '../components/nav';
 import '../styles/globals.css';
-import store from '../redux/store';
+import { store } from '../redux/store';
 import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
