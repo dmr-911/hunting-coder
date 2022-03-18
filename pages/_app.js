@@ -5,7 +5,6 @@ import { store } from '../redux/store';
 import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
-  console.log(store.getState());
   return <>
       <Head>
         <title>Hunting coder</title>

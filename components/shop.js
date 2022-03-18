@@ -9,7 +9,7 @@ const ShopContainer = (props) => {
     return (
         <div className="text-center">
             <h4 className="text-center font-bold my-4">Number of cakes {props.numOfCakes}</h4>
-            <button onClick={props.buyIceCream} className="rounded-full bg-cyan-600 px-8 py-2 text-white mx-auto">Buy cake</button>
+            <button onClick={props.buySingleCake} className="rounded-full bg-cyan-600 px-8 py-2 text-white mx-auto">Buy cake</button>
             <HooksShopContainer/>
             <IceCreamContainer/>
         </div>
