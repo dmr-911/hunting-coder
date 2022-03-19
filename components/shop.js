@@ -5,7 +5,6 @@ import HooksShopContainer from './HooksShopContainer';
 import IceCreamContainer from './IceCreamContainer';
 
 const ShopContainer = (props) => {
-    // console.log(props.buySingleCake());
     return (
         <div className="text-center">
             <h4 className="text-center font-bold my-4">Number of cakes {props.numOfCakes}</h4>

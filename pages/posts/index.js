@@ -2,13 +2,13 @@ import React from 'react';
 import Link from 'next/link';
 
 const PostList = ({posts}) => {
-    console.log(posts);
     return (
         <div>
             <h1>List of posts</h1>
             {
                 posts.map(post => <div key={post.id}>
-                    <Link href={`posts/${post.id}`} passHref><h3>{post.id} {post.title}</h3></Link>
+                    <Link href={`posts/${post.id}`} passHref><h3 className="cursor-pointer">{post.id} {post.title}</h3></Link>
+                    <hr  className="mb-4"/>
                 </div>)
             }
         </div>
@@ -23,7 +23,7 @@ export async function getStaticProps(){
 
     return {
         props :{
-            posts : data.slice(0,3)
+            posts : data
         }
     }
 }

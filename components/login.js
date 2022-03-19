@@ -5,11 +5,9 @@ import { googleSignIn, login } from '../redux/actions/authAction';
 import store from '../redux/store';
 
 const LoginCompo = () => {
-    console.log(store.getState());
     const dispatch = useDispatch();
     const {handleSubmit, register} = useForm();
     const handleLogin = data => {
-        console.log(data.email, data.password);
         dispatch(login(data.email, data.password))
     };
     const handleGoogleSignIn = () =>{
