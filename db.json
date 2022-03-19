@@ -44,5 +44,77 @@
         "likes"  : 100,
         "followers" : 20,
         "following" : 40
-    }
+    },
+    "events" : [
+        {
+            "id" : 1,
+            "title" : "news article 1",
+            "description" : "news Description 1",
+            "category" : "sports", 
+            "date" : "june 21"
+        },
+        {
+            "id" : 2,
+            "title" : "news article 2",
+            "description" : "news Description 2",
+            "category" : "sports", 
+            "date" : "june 22"
+        },
+        {
+            "id" : 3,
+            "title" : "news article 3",
+            "description" : "news Description 3",
+            "category" : "politics", 
+            "date" : "june 26"
+        },
+        {
+            "id" : 4,
+            "title" : "news article 4",
+            "description" : "news Description 4",
+            "category" : "sports", 
+            "date" : "june 24"
+        },
+        {
+            "id" : 5,
+            "title" : "news article 5",
+            "description" : "news Description 5",
+            "category" : "politics", 
+            "date" : "june 25"
+        },
+        {
+            "id" : 6,
+            "title" : "news article 6",
+            "description" : "news Description 6",
+            "category" : "sports", 
+            "date" : "june 26"
+        },
+        {
+            "id" : 7,
+            "title" : "news article 7",
+            "description" : "news Description 7",
+            "category" : "sports", 
+            "date" : "june 27"
+        },
+        {
+            "id" : 8,
+            "title" : "news article 8",
+            "description" : "news Description 8",
+            "category" : "sports", 
+            "date" : "june 28"
+        },
+        {
+            "id" : 9,
+            "title" : "news article 9",
+            "description" : "news Description 9",
+            "category" : "sports", 
+            "date" : "june 29"
+        },
+        {
+            "id" : 10,
+            "title" : "news article 10",
+            "description" : "news Description 10",
+            "category" : "sports", 
+            "date" : "june 210"
+        }
+    ]
 }
