@@ -10,9 +10,9 @@ const Navigation = () => {
             <li><Link href="/" scroll={false}>Home</Link></li>
             <li><Link href="/about" scroll={false}>About</Link></li>
             <li><Link href="/blog" scroll={false}>Blog</Link></li>
-            <li><Link href="/content" scroll={false}>Content</Link></li> 
+            <li><Link href="/users" scroll={false}>Users</Link></li> 
             <li><Link href="/shop" scroll={false}>Shop</Link></li> 
-            <li><Link href="/login" scroll={false}>Login</Link></li> 
+            <li><Link href="/posts" scroll={false}>Posts</Link></li> 
             </ul>
         </nav>
         </>
