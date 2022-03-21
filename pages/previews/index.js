@@ -9,6 +9,7 @@ const Previews = ({data}) => {
 export default Previews;
 
 export async function getStaticProps(context) {
+    console.log('Running getStaticProps', context.previewData);
     return {
         props: {
             data : context.preview ? 'List of draft articles' : 'List of published articles'
