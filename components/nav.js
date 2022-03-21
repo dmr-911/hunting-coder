@@ -15,6 +15,7 @@ const Navigation = () => {
             <li><Link href="/posts" scroll={false}>Posts</Link></li> 
             <li><Link href="/products" scroll={false}>Products</Link></li> 
             <li><Link href="/events" scroll={false}>Events</Link></li> 
+            <li><Link href="/comments" scroll={false}>Comments</Link></li> 
             <li><Link href="/dashboard-swr" scroll={false}>Dashboard</Link></li> 
             </ul>
         </nav>
