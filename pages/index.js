@@ -1,7 +1,7 @@
-import BannerImg from '../components/bannerImg'
-import styles from '../styles/Home.module.css'
+import BannerImg from 'components/bannerImg'
+import styles from 'styles/Home.module.css'
 import { useState } from 'react'
-import Blog from '../components/blog'
+import Blog from 'components/blog'
 
 export default function Home({data}) {
   const [state, setState] = useState(data);
