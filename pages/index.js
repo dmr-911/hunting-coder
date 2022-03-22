@@ -2,9 +2,13 @@ import BannerImg from 'components/bannerImg'
 import styles from 'styles/Home.module.css'
 import { useState } from 'react'
 import Blog from 'components/blog'
+import { useSession } from "next-auth/react"
 
 export default function Home({data}) {
   const [state, setState] = useState(data);
+  const { session, loading } = useSession();
+  console.log({session, loading});
+
   return (
     <div className={styles.container}>
       <style jsx>

@@ -3,7 +3,7 @@ import React from 'react';
 const ListByCategory = ({articles, category}) => {
     return (
         <div>
-            <h1>Showing news for {category}</h1>
+            <h1>Showing news for {category} and public key {process.env.NEXT_PUBLIC_ANALYTICS_ID}</h1>
             {
                 articles.map(article => <div key={article}>
                     <h3>{article.title} | {category}</h3>
